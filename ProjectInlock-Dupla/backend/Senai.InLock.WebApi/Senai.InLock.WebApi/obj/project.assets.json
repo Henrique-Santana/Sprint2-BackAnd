@@ -12410,11 +12410,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\47651807863\\Desktop\\senai\\senai-backend-inlock-FlavioPires-HenriqueBarreiro\\backend\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\ProjectInlock-Dupla\\backend\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
       "projectName": "Senai.InLock.WebApi",
-      "projectPath": "C:\\Users\\47651807863\\Desktop\\senai\\senai-backend-inlock-FlavioPires-HenriqueBarreiro\\backend\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
+      "projectPath": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\ProjectInlock-Dupla\\backend\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
       "packagesPath": "C:\\Users\\47651807863\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\47651807863\\Desktop\\senai\\senai-backend-inlock-FlavioPires-HenriqueBarreiro\\backend\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\ProjectInlock-Dupla\\backend\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
