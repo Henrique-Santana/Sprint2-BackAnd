@@ -1,0 +1,14 @@
+C:\Users\47651807863\Desktop\senai\Sprint2-BackAnd\Senail.InLock.WebApi.Codefirst\Senail.InLock.WebApi.Codefirst\bin\Debug\netcoreapp2.1\Senail.InLock.WebApi.Codefirst.deps.json
+C:\Users\47651807863\Desktop\senai\Sprint2-BackAnd\Senail.InLock.WebApi.Codefirst\Senail.InLock.WebApi.Codefirst\bin\Debug\netcoreapp2.1\Senail.InLock.WebApi.Codefirst.runtimeconfig.json
+C:\Users\47651807863\Desktop\senai\Sprint2-BackAnd\Senail.InLock.WebApi.Codefirst\Senail.InLock.WebApi.Codefirst\bin\Debug\netcoreapp2.1\Senail.InLock.WebApi.Codefirst.runtimeconfig.dev.json
+C:\Users\47651807863\Desktop\senai\Sprint2-BackAnd\Senail.InLock.WebApi.Codefirst\Senail.InLock.WebApi.Codefirst\bin\Debug\netcoreapp2.1\Senail.InLock.WebApi.Codefirst.dll
+C:\Users\47651807863\Desktop\senai\Sprint2-BackAnd\Senail.InLock.WebApi.Codefirst\Senail.InLock.WebApi.Codefirst\obj\Debug\netcoreapp2.1\Senail.InLock.WebApi.Codefirst.csprojAssemblyReference.cache
+C:\Users\47651807863\Desktop\senai\Sprint2-BackAnd\Senail.InLock.WebApi.Codefirst\Senail.InLock.WebApi.Codefirst\obj\Debug\netcoreapp2.1\Senail.InLock.WebApi.Codefirst.csproj.CoreCompileInputs.cache
+C:\Users\47651807863\Desktop\senai\Sprint2-BackAnd\Senail.InLock.WebApi.Codefirst\Senail.InLock.WebApi.Codefirst\obj\Debug\netcoreapp2.1\Senail.InLock.WebApi.Codefirst.RazorAssemblyInfo.cache
+C:\Users\47651807863\Desktop\senai\Sprint2-BackAnd\Senail.InLock.WebApi.Codefirst\Senail.InLock.WebApi.Codefirst\obj\Debug\netcoreapp2.1\Senail.InLock.WebApi.Codefirst.RazorAssemblyInfo.cs
+C:\Users\47651807863\Desktop\senai\Sprint2-BackAnd\Senail.InLock.WebApi.Codefirst\Senail.InLock.WebApi.Codefirst\obj\Debug\netcoreapp2.1\Senail.InLock.WebApi.Codefirst.AssemblyInfoInputs.cache
+C:\Users\47651807863\Desktop\senai\Sprint2-BackAnd\Senail.InLock.WebApi.Codefirst\Senail.InLock.WebApi.Codefirst\obj\Debug\netcoreapp2.1\Senail.InLock.WebApi.Codefirst.AssemblyInfo.cs
+C:\Users\47651807863\Desktop\senai\Sprint2-BackAnd\Senail.InLock.WebApi.Codefirst\Senail.InLock.WebApi.Codefirst\obj\Debug\netcoreapp2.1\Senail.InLock.WebApi.Codefirst.RazorTargetAssemblyInfo.cache
+C:\Users\47651807863\Desktop\senai\Sprint2-BackAnd\Senail.InLock.WebApi.Codefirst\Senail.InLock.WebApi.Codefirst\bin\Debug\netcoreapp2.1\Senail.InLock.WebApi.Codefirst.pdb
+C:\Users\47651807863\Desktop\senai\Sprint2-BackAnd\Senail.InLock.WebApi.Codefirst\Senail.InLock.WebApi.Codefirst\obj\Debug\netcoreapp2.1\Senail.InLock.WebApi.Codefirst.dll
+C:\Users\47651807863\Desktop\senai\Sprint2-BackAnd\Senail.InLock.WebApi.Codefirst\Senail.InLock.WebApi.Codefirst\obj\Debug\netcoreapp2.1\Senail.InLock.WebApi.Codefirst.pdb

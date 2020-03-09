@@ -1,4 +1,5 @@
-﻿using senai.Inlock.WebApi.DataBaseFirst.Domains;
+﻿using Microsoft.EntityFrameworkCore;
+using senai.Inlock.WebApi.DataBaseFirst.Domains;
 using senai.Inlock.WebApi.DataBaseFirst.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,21 @@ namespace senai.Inlock.WebApi.DataBaseFirst.Repositories
         /// Objeto contexto por onde serão chamados os métodos do EF Core
         /// </summary>
         InlockContext ctx = new InlockContext();
+
+        public void Atualizar(int id, Estudio estudioAtualizado)
+        {
+            // Busca um estúdio através do id
+            Estudio estudioBuscado = ctx.Estudio.Find(id);
+
+            // Atribui os novos valores ao campos existentes
+            estudioBuscado.NomeEstudio = estudioAtualizado.NomeEstudio;
+
+            // Atualiza o estúdio que foi buscado
+            ctx.Estudio.Update(estudioBuscado);
+
+            // Salva as informações para serem gravadas no banco
+            ctx.SaveChanges();
+        }
 
         /// <summary>
         /// Busca um estúdio através do ID
@@ -40,6 +56,18 @@ namespace senai.Inlock.WebApi.DataBaseFirst.Repositories
             ctx.SaveChanges();
         }
 
+        public void Deletar(int id)
+        {
+            // Busca um estúdio através do id
+            Estudio estudioBuscado = ctx.Estudio.Find(id);
+
+            // Remove o estúdio que foi buscado
+            ctx.Estudio.Remove(estudioBuscado);
+
+            // Salva as alterações
+            ctx.SaveChanges();
+        }
+
         /// <summary>
         /// Lista todos os estúdios
         /// </summary>
@@ -48,6 +76,12 @@ namespace senai.Inlock.WebApi.DataBaseFirst.Repositories
         {
             // Retorna uma lista com todas as informações dos estúdios
             return ctx.Estudio.ToList();
+        }
+
+        public List<Estudio> ListarJogos()
+        {
+            // Retorna uma lista de estúdios com seus jogos
+            return ctx.Estudio.Include(e => e.Jogo).ToList();
         }
     }
 }

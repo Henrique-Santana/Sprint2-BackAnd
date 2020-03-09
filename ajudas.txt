@@ -1,0 +1,11 @@
+https://www.hackerrank.com/
+
+URI online judge
+
+CodeWars
+
+hack de box
+
+Add-Migration Cria-Banco
+
+Update-Database

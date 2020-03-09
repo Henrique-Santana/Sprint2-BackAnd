@@ -22,7 +22,11 @@ namespace senai.Inlock.WebApi.DataBaseFirst.Repositories
             //
             Usuario UsuarioBuscado = ctx.Usuario.FirstOrDefault(e => e.IdUsuario == id);
 
-            UsuarioBuscado.Email = UsuarioAtualizado.Email;
+            if(UsuarioAtualizado.Email != null)
+            {
+                UsuarioBuscado.Email = UsuarioAtualizado.Email;
+            }
+
             UsuarioBuscado.Senha = UsuarioAtualizado.Senha;
             UsuarioBuscado.IdTipoUsuario = UsuarioAtualizado.IdTipoUsuario;
 
@@ -67,7 +71,8 @@ namespace senai.Inlock.WebApi.DataBaseFirst.Repositories
         public void Deletar(int id)
         {
             //Procura o usuario informado pelo id
-            Usuario UsuarioDeletado = ctx.Usuario.FirstOrDefault(e => e.IdUsuario == id);
+            //Usuario UsuarioDeletado = ctx.Usuario.FirstOrDefault(e => e.IdUsuario == id);
+            Usuario UsuarioDeletado = ctx.Usuario.Find(id);
 
             //Deleta o usuario
             ctx.Usuario.Remove(UsuarioDeletado);

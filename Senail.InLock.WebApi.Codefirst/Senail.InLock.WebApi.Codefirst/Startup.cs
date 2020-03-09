@@ -6,9 +6,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
-using Newtonsoft.Json;
 
-namespace senai.Inlock.WebApi.DataBaseFirst
+namespace Senail.InLock.WebApi.Codefirst
 {
     public class Startup
     {
@@ -18,16 +17,7 @@ namespace senai.Inlock.WebApi.DataBaseFirst
         {
             services
                 .AddMvc()
-
-                // Adiciona as opções do json 
-                .AddJsonOptions(options => {
-                    // Ignora valores nulos ao fazer junções nas consultas
-                    options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
-                    // Ignora os loopings nas consultas
-                    options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
-                })
-
-                .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1);
+                .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1)
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,6 +29,7 @@ namespace senai.Inlock.WebApi.DataBaseFirst
             }
 
             app.UseMvc();
+            
         }
     }
 }
