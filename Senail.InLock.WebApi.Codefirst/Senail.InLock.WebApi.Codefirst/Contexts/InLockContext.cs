@@ -75,8 +75,20 @@ namespace Senail.InLock.WebApi.Codefirst.Contexts
                 new Jogo {
                 IdJogo = 1,
                 NomeJogo = "Red Dead Redemption II",
-                DataLancamento = }
-                );
+                Descricao = "Jogo eletrônico de ação-aventura western",
+                DataLancamento = '26 / 10 / 2018',
+                Valor = 120,
+                IdEstudio = 2 
+                },
+
+                new Jogo {
+                 IdJogo = 1,
+                 NomeJogo = "Diablo 3",
+                 Descricao = "É um jogo que contém bastante ação e é viciante, seja você um novato ou um fã",
+                 DataLancamento = '15/05/2012',
+                 Valor = 99,
+                 IdEstudio = 1
+                });
         }
     }
 }
