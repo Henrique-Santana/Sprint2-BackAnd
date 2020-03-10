@@ -11808,11 +11808,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\47651807863\\Desktop\\senai\\sprint2-backend\\manha\\Senai.InLock.WebApi.CodeFirst\\Senai.InLock.WebApi.CodeFirst\\Senai.InLock.WebApi.CodeFirst.csproj",
+      "projectUniqueName": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\CodeFirst\\Senai.InLock.WebApi.CodeFirst\\Senai.InLock.WebApi.CodeFirst\\Senai.InLock.WebApi.CodeFirst.csproj",
       "projectName": "Senai.InLock.WebApi.CodeFirst",
-      "projectPath": "C:\\Users\\47651807863\\Desktop\\senai\\sprint2-backend\\manha\\Senai.InLock.WebApi.CodeFirst\\Senai.InLock.WebApi.CodeFirst\\Senai.InLock.WebApi.CodeFirst.csproj",
+      "projectPath": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\CodeFirst\\Senai.InLock.WebApi.CodeFirst\\Senai.InLock.WebApi.CodeFirst\\Senai.InLock.WebApi.CodeFirst.csproj",
       "packagesPath": "C:\\Users\\47651807863\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\47651807863\\Desktop\\senai\\sprint2-backend\\manha\\Senai.InLock.WebApi.CodeFirst\\Senai.InLock.WebApi.CodeFirst\\obj\\",
+      "outputPath": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\CodeFirst\\Senai.InLock.WebApi.CodeFirst\\Senai.InLock.WebApi.CodeFirst\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -28,8 +28,8 @@ namespace Senai.InLock.WebApi.CodeFirst.Contexts
         /// <param name="optionsBuilder">Objeto com as configurações definidas</param>
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-NJ6LHN1\\SQLDEVELOPER; Database=InLock_Games_CodeFirst; Integrated Security=True;");
-            //optionsBuilder.UseSqlServer("Server=DESKTOP-GCOFA7F\\SQLEXPRESS; Database=InLock_Games_CodeFirst; user Id=sa; pwd=sa@132;");
+            //optionsBuilder.UseSqlServer("Server=DESKTOP-NJ6LHN1\\SQLDEVELOPER; Database=InLock_Games_CodeFirst; Integrated Security=True;");
+            optionsBuilder.UseSqlServer("Server=DEV17\\SQLEXPRESS; Database=InLock_Games_Manha_CodeFirst; user Id=sa; pwd=sa@132;");
             base.OnConfiguring(optionsBuilder);
         }
 
