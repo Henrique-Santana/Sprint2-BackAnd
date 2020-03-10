@@ -1,54 +1,46 @@
-﻿using senai.Inlock.WebApi.DataBaseFirst.Domains;
+﻿using Senai.InLock.WebApi.DataBaseFirst.Domains;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace senai.Inlock.WebApi.DataBaseFirst.Interfaces
+namespace Senai.InLock.WebApi.DataBaseFirst.Interfaces
 {
     /// <summary>
-    /// Interface responsavel pelo repositorio do Usuario
+    /// Interface responsável pelo UsuarioRepository
     /// </summary>
-    interface IUsuarioRepository  
+    interface IUsuarioRepository
     {
         /// <summary>
         /// Lista todos os usuários
         /// </summary>
-        /// <returns>Retorna uma lista de usuários</returns>
-        List<Usuario> Listar();
+        /// <returns>Uma lista de usuários</returns>
+        List<Usuarios> Listar();
 
         /// <summary>
         /// Busca um usuário através do ID
         /// </summary>
-        /// <param name="id">ID do usuário que será buscado</param>
-        /// <returns>Retorna um usuário buscado</returns>
-        Usuario BuscarPorId(int id);
+        /// <param name="id">ID do usuário buscado</param>
+        /// <returns>Um usuário buscado</returns>
+        Usuarios BuscarPorId(int id);
 
         /// <summary>
-        /// Cadastra um usuário
+        /// Cadastra um novo usuário
         /// </summary>
         /// <param name="novoUsuario">Objeto novoUsuario que será cadastrado</param>
-        void Cadastrar(Usuario novoUsuario);
+        void Cadastrar(Usuarios novoUsuario);
 
         /// <summary>
         /// Atualiza um usuário existente
         /// </summary>
-        /// <param name="id">ID do usuário que será alterado</param>
-        /// <param name="UsuarioAtualizado">Objeto UsuarioAtualizado que será alterado</param>
-        void Atualizar(int id, Usuario UsuarioAtualizado);
+        /// <param name="id">ID do usuário que será atualizado</param>
+        /// <param name="usuarioAtualizado">Objeto com as novas informações</param>
+        void Atualizar(int id, Usuarios usuarioAtualizado);
 
         /// <summary>
-        /// Deleta um usuário existente
+        /// Deleta um usuário
         /// </summary>
         /// <param name="id">ID do usuário que será deletado</param>
         void Deletar(int id);
-
-        /// <summary>
-        /// Busca um usuário através do e-mail e da senha
-        /// </summary>
-        /// <param name="email">E-mail do usuário</param>
-        /// <param name="senha">Senha do usuário</param>
-        /// <returns>Retorna um usuário validado</returns>
-        Usuario BuscarPorEmailSenha(string email, string senha);
     }
 }

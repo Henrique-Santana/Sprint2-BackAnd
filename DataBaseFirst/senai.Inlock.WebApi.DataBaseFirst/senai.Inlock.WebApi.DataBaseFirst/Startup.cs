@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 
-namespace senai.Inlock.WebApi.DataBaseFirst
+namespace Senai.InLock.WebApi.DataBaseFirst
 {
     public class Startup
     {
@@ -16,7 +16,11 @@ namespace senai.Inlock.WebApi.DataBaseFirst
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            // Documentação EF Core
+            // https://docs.microsoft.com/pt-br/ef/core/managing-schemas/scaffolding
+
             services
+                // Adiciona o MVC ao projeto
                 .AddMvc()
 
                 // Adiciona as opções do json 
@@ -27,6 +31,7 @@ namespace senai.Inlock.WebApi.DataBaseFirst
                     options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
                 })
 
+                // Define a versão do .NET Core
                 .SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1);
         }
 
@@ -38,6 +43,7 @@ namespace senai.Inlock.WebApi.DataBaseFirst
                 app.UseDeveloperExceptionPage();
             }
 
+            // Define o uso do MVC
             app.UseMvc();
         }
     }

@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace senai.Inlock.WebApi.DataBaseFirst
+namespace Senai.InLock.WebApi.DataBaseFirst
 {
     public class Program
     {

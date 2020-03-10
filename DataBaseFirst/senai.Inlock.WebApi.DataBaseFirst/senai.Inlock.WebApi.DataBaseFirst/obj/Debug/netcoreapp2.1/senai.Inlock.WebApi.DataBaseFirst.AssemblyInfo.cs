@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("senai.Inlock.WebApi.DataBaseFirst")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Senai.InLock.WebApi.DataBaseFirst")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("senai.Inlock.WebApi.DataBaseFirst")]
-[assembly: System.Reflection.AssemblyTitleAttribute("senai.Inlock.WebApi.DataBaseFirst")]
+[assembly: System.Reflection.AssemblyProductAttribute("Senai.InLock.WebApi.DataBaseFirst")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Senai.InLock.WebApi.DataBaseFirst")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
