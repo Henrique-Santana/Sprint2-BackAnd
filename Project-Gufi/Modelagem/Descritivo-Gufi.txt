@@ -1,0 +1,8 @@
+DESCRITIVO
+
+TipoUsuario- idtipoUsua, titulo(adm,comum).
+Usuario- idUsuario, IDTIPOUSUARIO, nome, email, senha, dataCadastr, Genero.
+TipoEvento- idtipoEvento, titulo.
+Eventos- ideventos, nomeEvento, AcessoLivre, IDTIPOEVENT, IDINSTITUICAO, descricao.
+Presenca- idPreenca, IDUSUARIO, IDEVENTO.
+Instituicao- IdInstituição, cnpj, NomeFantasia, Endereço.

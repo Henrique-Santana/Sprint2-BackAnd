@@ -12569,11 +12569,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\47651807863\\Desktop\\senai\\BancoDados-SQL\\API\\peoples-senai\\senai.Peoples.WebApi\\senai.Peoples.WebApi\\senai.Peoples.WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\API\\peoples-senai\\senai.Peoples.WebApi\\senai.Peoples.WebApi\\senai.Peoples.WebApi.csproj",
       "projectName": "senai.Peoples.WebApi",
-      "projectPath": "C:\\Users\\47651807863\\Desktop\\senai\\BancoDados-SQL\\API\\peoples-senai\\senai.Peoples.WebApi\\senai.Peoples.WebApi\\senai.Peoples.WebApi.csproj",
+      "projectPath": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\API\\peoples-senai\\senai.Peoples.WebApi\\senai.Peoples.WebApi\\senai.Peoples.WebApi.csproj",
       "packagesPath": "C:\\Users\\47651807863\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\47651807863\\Desktop\\senai\\BancoDados-SQL\\API\\peoples-senai\\senai.Peoples.WebApi\\senai.Peoples.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\API\\peoples-senai\\senai.Peoples.WebApi\\senai.Peoples.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

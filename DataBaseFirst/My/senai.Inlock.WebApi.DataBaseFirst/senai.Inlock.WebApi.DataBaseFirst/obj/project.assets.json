@@ -12538,11 +12538,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst.csproj",
+      "projectUniqueName": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\DataBaseFirst\\My\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst.csproj",
       "projectName": "senai.Inlock.WebApi.DataBaseFirst",
-      "projectPath": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst.csproj",
+      "projectPath": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\DataBaseFirst\\My\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst.csproj",
       "packagesPath": "C:\\Users\\47651807863\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\obj\\",
+      "outputPath": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\DataBaseFirst\\My\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
