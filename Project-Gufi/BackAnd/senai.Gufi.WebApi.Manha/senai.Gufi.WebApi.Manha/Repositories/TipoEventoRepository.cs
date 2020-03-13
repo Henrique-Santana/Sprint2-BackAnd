@@ -24,7 +24,7 @@ namespace senai.Gufi.WebApi.Manha.Repositories
 
         public TipoEvento BuscarPorId(int id)
         {
-            return ctx.TipoEvento.FirstOrDefault(te => te.IdEvento == id);
+            return ctx.TipoEvento.FirstOrDefault(te => te.IdTipoEvento == id);
         }
 
         public void Cadastrar(TipoEvento novoTipoEvento)

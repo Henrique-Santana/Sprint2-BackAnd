@@ -26,7 +26,7 @@ namespace senai.Gufi.WebApi.Manha.Domains
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
                 optionsBuilder.UseSqlServer("Data Source=DEV17\\SQLEXPRESS; Initial Catalog= Gufi_Manha; user Id=sa; Pwd=sa@132;");
             }
         }
@@ -67,15 +67,15 @@ namespace senai.Gufi.WebApi.Manha.Domains
                 entity.HasKey(e => e.IdInstitucao);
 
                 entity.HasIndex(e => e.Cnpj)
-                    .HasName("UQ__Institui__AA57D6B4A26088A6")
+                    .HasName("UQ__Institui__AA57D6B412528CCF")
                     .IsUnique();
 
                 entity.HasIndex(e => e.Endereco)
-                    .HasName("UQ__Institui__4DF3E1FF45BF1D3E")
+                    .HasName("UQ__Institui__4DF3E1FFCE02EB1D")
                     .IsUnique();
 
                 entity.HasIndex(e => e.NomeFantasia)
-                    .HasName("UQ__Institui__F5389F31BA61BF4E")
+                    .HasName("UQ__Institui__F5389F311819C14E")
                     .IsUnique();
 
                 entity.Property(e => e.Cnpj)
@@ -116,10 +116,10 @@ namespace senai.Gufi.WebApi.Manha.Domains
 
             modelBuilder.Entity<TipoEvento>(entity =>
             {
-                entity.HasKey(e => e.IdEvento);
+                entity.HasKey(e => e.IdTipoEvento);
 
                 entity.HasIndex(e => e.TituloTipoEvento)
-                    .HasName("UQ__TipoEven__40023AD2EC5DB77B")
+                    .HasName("UQ__TipoEven__40023AD29C64FE5C")
                     .IsUnique();
 
                 entity.Property(e => e.TituloTipoEvento)
@@ -133,7 +133,7 @@ namespace senai.Gufi.WebApi.Manha.Domains
                 entity.HasKey(e => e.IdTipoUsuario);
 
                 entity.HasIndex(e => e.Titulo)
-                    .HasName("UQ__TipoUsua__7B406B56C03CAF50")
+                    .HasName("UQ__TipoUsua__7B406B56EE0F34B0")
                     .IsUnique();
 
                 entity.Property(e => e.Titulo)
@@ -147,7 +147,7 @@ namespace senai.Gufi.WebApi.Manha.Domains
                 entity.HasKey(e => e.IdUsuario);
 
                 entity.HasIndex(e => e.Email)
-                    .HasName("UQ__Usuario__A9D105344ECA0C3C")
+                    .HasName("UQ__Usuario__A9D1053459BC9B28")
                     .IsUnique();
 
                 entity.Property(e => e.Email)

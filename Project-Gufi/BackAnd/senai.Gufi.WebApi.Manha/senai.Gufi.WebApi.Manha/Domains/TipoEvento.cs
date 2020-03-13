@@ -10,7 +10,7 @@ namespace senai.Gufi.WebApi.Manha.Domains
             Evento = new HashSet<Evento>();
         }
 
-        public int IdEvento { get; set; }
+        public int IdTipoEvento { get; set; }
         public string TituloTipoEvento { get; set; }
 
         public ICollection<Evento> Evento { get; set; }

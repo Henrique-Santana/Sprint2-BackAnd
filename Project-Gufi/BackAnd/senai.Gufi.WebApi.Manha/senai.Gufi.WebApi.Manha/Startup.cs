@@ -29,7 +29,7 @@ namespace senai.Gufi.WebApi.Manha
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseMvc(); 
+            app.UseMvc();
         }
     }
 }

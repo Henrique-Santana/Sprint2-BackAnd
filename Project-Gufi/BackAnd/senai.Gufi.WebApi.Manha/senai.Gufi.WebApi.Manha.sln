@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.960
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "senai.Gufi.WebApi.Manha", "senai.Gufi.WebApi.Manha\senai.Gufi.WebApi.Manha.csproj", "{07D18D92-6D73-4CBE-8076-659427FDCB54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "senai.Gufi.WebApi.Manha", "senai.Gufi.WebApi.Manha\senai.Gufi.WebApi.Manha.csproj", "{5AF05674-871F-41E8-A033-66AC176549E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{07D18D92-6D73-4CBE-8076-659427FDCB54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07D18D92-6D73-4CBE-8076-659427FDCB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07D18D92-6D73-4CBE-8076-659427FDCB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07D18D92-6D73-4CBE-8076-659427FDCB54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF05674-871F-41E8-A033-66AC176549E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF05674-871F-41E8-A033-66AC176549E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF05674-871F-41E8-A033-66AC176549E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF05674-871F-41E8-A033-66AC176549E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {88E3940B-00AA-4974-A065-3DE64EE9FBAA}
+		SolutionGuid = {B40E184B-DD48-4DF3-9151-AF6C9BC22CAB}
 	EndGlobalSection
 EndGlobal
