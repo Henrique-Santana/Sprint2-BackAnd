@@ -23,9 +23,7 @@ namespace Senai.InLock.WebApi.Controllers
 
     // Define que é um controlador de API
     [ApiController]
-
-    // Define que somente usuários logados possam acessar os endpoints
-    [Authorize]
+    
     public class EstudioController : ControllerBase
     {
         /// <summary>

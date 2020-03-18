@@ -14,8 +14,7 @@ namespace Senai.InLock.WebApi.Controllers
     [Route("api/[controller]")]
     [ApiController]
 
-    // Define que somente usuários logados possam acessar os endpoints
-    [Authorize]
+    
     public class JogoController : ControllerBase
     {
         private IJogoRepository _jogorepository;

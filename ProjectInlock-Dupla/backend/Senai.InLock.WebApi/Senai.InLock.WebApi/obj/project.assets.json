@@ -12404,23 +12404,39 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\47651807863\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\39221000826\\.nuget\\packages\\": {},
+>>>>>>> f6a21c6f38e903874c381bf084078dc8edbd1cd7
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\ProjectInlock-Dupla\\backend\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\47651807863\\Desktop\\senai\\senai-backend-inlock-FlavioPires-HenriqueBarreiro\\backend\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
       "projectName": "Senai.InLock.WebApi",
-      "projectPath": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\ProjectInlock-Dupla\\backend\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
+      "projectPath": "C:\\Users\\47651807863\\Desktop\\senai\\senai-backend-inlock-FlavioPires-HenriqueBarreiro\\backend\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
       "packagesPath": "C:\\Users\\47651807863\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\ProjectInlock-Dupla\\backend\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\obj\\",
+      "outputPath": "C:\\Users\\47651807863\\Desktop\\senai\\senai-backend-inlock-FlavioPires-HenriqueBarreiro\\backend\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\39221000826\\Documents\\senai-backend-inlock-FlavioPires-HenriqueBarreiro\\backend\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
+      "projectName": "Senai.InLock.WebApi",
+      "projectPath": "C:\\Users\\39221000826\\Documents\\senai-backend-inlock-FlavioPires-HenriqueBarreiro\\backend\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\Senai.InLock.WebApi.csproj",
+      "packagesPath": "C:\\Users\\39221000826\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\39221000826\\Documents\\senai-backend-inlock-FlavioPires-HenriqueBarreiro\\backend\\Senai.InLock.WebApi\\Senai.InLock.WebApi\\obj\\",
+>>>>>>> f6a21c6f38e903874c381bf084078dc8edbd1cd7
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\47651807863\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\39221000826\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> f6a21c6f38e903874c381bf084078dc8edbd1cd7
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
