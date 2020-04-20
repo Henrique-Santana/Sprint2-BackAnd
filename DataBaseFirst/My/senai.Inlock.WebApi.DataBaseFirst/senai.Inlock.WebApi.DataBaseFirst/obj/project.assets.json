@@ -12532,23 +12532,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\47651807863\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Henrique\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\DataBaseFirst\\My\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst.csproj",
+      "projectUniqueName": "D:\\Henrique\\SENAI\\2º sem\\Backand\\Sprint2-BackAnd\\DataBaseFirst\\My\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst.csproj",
       "projectName": "senai.Inlock.WebApi.DataBaseFirst",
-      "projectPath": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\DataBaseFirst\\My\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst.csproj",
-      "packagesPath": "C:\\Users\\47651807863\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\47651807863\\Desktop\\senai\\Sprint2-BackAnd\\DataBaseFirst\\My\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\obj\\",
+      "projectPath": "D:\\Henrique\\SENAI\\2º sem\\Backand\\Sprint2-BackAnd\\DataBaseFirst\\My\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst.csproj",
+      "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
+      "outputPath": "D:\\Henrique\\SENAI\\2º sem\\Backand\\Sprint2-BackAnd\\DataBaseFirst\\My\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\47651807863\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12598,6 +12594,7 @@
             "version": "[2.1.14, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
@@ -12608,10 +12605,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

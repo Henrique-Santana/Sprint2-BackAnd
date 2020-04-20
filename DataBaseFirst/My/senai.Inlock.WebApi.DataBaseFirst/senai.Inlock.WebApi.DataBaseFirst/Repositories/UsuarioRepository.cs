@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace senai.Inlock.WebApi.DataBaseFirst.Repositories
 {
     /// <summary>
-    /// Repositório dos Estúdios
+    /// Repositório dos Usuario
     /// </summary>
     public class UsuarioRepository : IUsuarioRepository
     {

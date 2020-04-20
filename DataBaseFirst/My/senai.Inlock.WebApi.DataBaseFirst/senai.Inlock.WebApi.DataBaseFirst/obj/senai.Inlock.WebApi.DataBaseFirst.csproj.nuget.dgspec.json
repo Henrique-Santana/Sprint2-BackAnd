@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Henrique\\SENAI\\2º sem\\Backand\\Sprint2-BackAnd\\DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\Senai.InLock.WebApi.DataBaseFirst\\Senai.InLock.WebApi.DataBaseFirst.csproj": {}
+    "D:\\Henrique\\SENAI\\2º sem\\Backand\\Sprint2-BackAnd\\DataBaseFirst\\My\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst.csproj": {}
   },
   "projects": {
-    "D:\\Henrique\\SENAI\\2º sem\\Backand\\Sprint2-BackAnd\\DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\Senai.InLock.WebApi.DataBaseFirst\\Senai.InLock.WebApi.DataBaseFirst.csproj": {
+    "D:\\Henrique\\SENAI\\2º sem\\Backand\\Sprint2-BackAnd\\DataBaseFirst\\My\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Henrique\\SENAI\\2º sem\\Backand\\Sprint2-BackAnd\\DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\Senai.InLock.WebApi.DataBaseFirst\\Senai.InLock.WebApi.DataBaseFirst.csproj",
-        "projectName": "Senai.InLock.WebApi.DataBaseFirst",
-        "projectPath": "D:\\Henrique\\SENAI\\2º sem\\Backand\\Sprint2-BackAnd\\DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\Senai.InLock.WebApi.DataBaseFirst\\Senai.InLock.WebApi.DataBaseFirst.csproj",
+        "projectUniqueName": "D:\\Henrique\\SENAI\\2º sem\\Backand\\Sprint2-BackAnd\\DataBaseFirst\\My\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst.csproj",
+        "projectName": "senai.Inlock.WebApi.DataBaseFirst",
+        "projectPath": "D:\\Henrique\\SENAI\\2º sem\\Backand\\Sprint2-BackAnd\\DataBaseFirst\\My\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst.csproj",
         "packagesPath": "C:\\Users\\Henrique\\.nuget\\packages\\",
-        "outputPath": "D:\\Henrique\\SENAI\\2º sem\\Backand\\Sprint2-BackAnd\\DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\Senai.InLock.WebApi.DataBaseFirst\\obj\\",
+        "outputPath": "D:\\Henrique\\SENAI\\2º sem\\Backand\\Sprint2-BackAnd\\DataBaseFirst\\My\\senai.Inlock.WebApi.DataBaseFirst\\senai.Inlock.WebApi.DataBaseFirst\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Henrique\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,7 +58,7 @@
               "version": "[2.1.14, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.14, )"
@@ -71,7 +71,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[2.1.10, )"
+              "version": "[2.1.9, )"
             }
           },
           "imports": [
